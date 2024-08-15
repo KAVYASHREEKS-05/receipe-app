@@ -1,0 +1,58 @@
+/* SearchResults.css */
+
+.search-results-container {
+  padding: 20px;
+}
+
+.recipe-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff; /* Optional: background color for better contrast */
+}
+
+.recipe-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  padding-bottom: 10px; /* Space between title and image */
+}
+
+.recipe-image {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px; /* Space between image and button */
+}
+
+.view-details-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Primary button color */
+  color: #fff;
+  cursor: pointer;
+  margin-top: auto; /* Push the button to the bottom of the card */
+  margin-bottom: 10px; /* Space between button and bottom of card */
+  display: flex;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
